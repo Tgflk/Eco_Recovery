@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_1">
+
+    <TextView
+        android:id="@+id/tV1_main1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="67dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/main_ec_tv"
+        android:textColor="@color/main1_color"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tV2_main1"
+        android:layout_width="276dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="@string/main2_string"
+        android:textColor="@color/main1_tx2"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_main1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tV1_main1"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <Button
+        android:id="@+id/btn_main1"
+        android:layout_width="267dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="@color/btn_main1"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/get_started"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="InvalidId" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

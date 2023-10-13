@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Glass"
+    android:background="@drawable/main2_fon2">
+
+    <ImageView
+        android:id="@+id/iv_gl_glass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_3_1" />
+
+    <ImageView
+        android:id="@+id/iv_n_glass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main3_2" />
+
+    <TextView
+        android:id="@+id/tv_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_gl"
+        android:textSize="25sp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_n_glass"
+        app:layout_constraintEnd_toEndOf="@+id/iv_n_glass"
+        app:layout_constraintStart_toStartOf="@+id/iv_n_glass"
+        app:layout_constraintTop_toTopOf="@+id/iv_n_glass"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <ImageView
+        android:id="@+id/iv_gl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_n_glass"
+        app:srcCompat="@drawable/glass1" />
+
+    <TextView
+        android:id="@+id/tv_infa_gl_1"
+        android:layout_width="170dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="220dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="@string/inf_gl1"
+        android:textColor="@color/infa"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_n_glass"
+        app:layout_constraintEnd_toStartOf="@+id/tv_infa_gl_1"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_n_glass"
+        tools:ignore="NotSibling" />
+
+    <ImageView
+        android:id="@+id/iv_gl_2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="210dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_gl3_infa"
+        app:layout_constraintEnd_toEndOf="@+id/iv_n_glass"
+
+        app:layout_constraintStart_toStartOf="@+id/iv_gl_glass"
+        app:layout_constraintTop_toBottomOf="@+id/tv_infa_gl_1"
+        app:srcCompat="@drawable/glass2" />
+
+    <TextView
+        android:id="@+id/tv_gl_infa2"
+        android:layout_width="173dp"
+        android:layout_height="154dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="@string/inf_gl2"
+        android:textColor="@color/infa"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_n_glass"
+        app:layout_constraintTop_toBottomOf="@+id/tv_infa_gl_1" />
+
+    <ImageView
+        android:id="@+id/iv_gl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_gl_infa2"
+        app:srcCompat="@drawable/glass3" />
+
+    <TextView
+        android:id="@+id/tv_gl3_infa"
+        android:layout_width="169dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="@string/inf_gl3"
+        android:textColor="@color/infa"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_gl3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_gl_infa2" />
+
+    <Button
+        android:id="@+id/btn_main_gl"
+        android:layout_width="231dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="495dp"
+        android:backgroundTint="@color/btn_main2_tv"
+        android:text="@string/t_btn_main"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_n_glass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

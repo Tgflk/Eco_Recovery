@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main1_color">#758F52</color>
+    <color name="main1_tx2">#A4BC84</color>
+    <color name="btn_main1">#CC758F52</color>
+    <color name="tv_svg1">#566B3C</color>
+    <color name="btn_main2">#C2CEB2</color>
+    <color name="btn_main2_tv">#566B3C</color>
+    <color name="infa">#485833</color>
+
+
+
+</resources>

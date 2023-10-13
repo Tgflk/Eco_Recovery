@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">EcoRecovery</string>
+    <string name="main_ec_tv">EcoRecovery</string>
+    <string name="main2_string">Присоединяйтесь к нам в борьбе за чистую планету! Вместе мы можем сделать мир лучше для будущих поколений.</string>
+    <string name="get_started">Get started</string>
+    <string name="tv_500">500 кг</string>
+    <string name="ot_tv">отходов производит 1 человек за 1 год жизни. Это равно весу 1 коровы.</string>
+    <string name="tv_kit">отходов производит 1 человек за 70 лет жизни. Это равно весу серого кита.</string>
+    <string name="tv_1t">35 тонн</string>
+    <string name="tv_car_90">90%</string>
+    <string name="tv_car_down">отходов отправляются на свалки, где они будут разлагаться сотни лет, выделяя токсичные вещества.</string>
+    <string name="tv_sort">Выберете категорию сортировки:</string>
+    <string name="btn_tv_main2">перейти</string>
+    <string name="TV_PAPER">PAPER</string>
+    <string name="TV_GLASS">GLASS</string>
+    <string name="tv_plastic">PLASTIC</string>
+    <string name="TV_plasticine">PLASTICINE</string>
+    <string name="TV_batteries">BATTERIES</string>
+    <string name="name_pr1">Переработка бумаги:</string>
+    <string name="info_pr_1">Полузабытая советская традиция сдачи макулатуры возрождается.</string>
+    <string name="infa_2">Между тем разницы в потребительском качестве этих двух видов бумаги не наблюдается.</string>
+    <string name="infa_3">Между тем разницы в потребительском качестве этих двух видов бумаги не наблюдается.</string>
+    <string name="t_btn_main">показать пункты сдачи на карте</string>
+    <string name="inf_gl1">Отходы стекла- это одни из немногих материалов, которые не разлагаются в природной среде.</string>
+    <string name="inf_gl2">Поэтому их вторичное использование - это не только способ снижения производственных затрат</string>
+    <string name="inf_gl3">но и эффективный вклад в дело защиты экологии родного края.</string>
+    <string name="name_gl">Переработка стекла:</string>
+    <string name="inf_plast1">Переработка пластика:</string>
+    <string name="infa_plastic1">Пластиковое загрязнение – бич нашего времени. С каждым годом пластика на планете становится всё больше и больше.</string>
+    <string name="inf_plast2">Но с проблемой пытаются всячески бороться.</string>
+    <string name="inf_plast3">Учёные придумали много способов переработки и продолжают работать над новыми.</string>
+    <string name="bat_inf">Переработка батареек:</string>
+    <string name="inf_batt1">Батарейки перерабатываются больше чем на 90%. Изжившие себя батарейки – это отходы, которые относятся ко II-му классу опасности.</string>
+    <string name="inf_batt2">И их никак нельзя выбрасывать в общий бак.</string>
+    <string name="inf_batt3">Батарейки можно вернуть в цикл и использовать в автомобиле и приборостроении.</string>
+    <string name="inf_plasticince1">Переработка пластилина включает в себя процесс его очистки от загрязнений и использование его повторно для создания новых изделий.</string>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Batteria"
+    android:background="@drawable/main2_fon2">
+
+    <ImageView
+        android:id="@+id/iv_gl_batt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_3_1" />
+
+    <ImageView
+        android:id="@+id/iv_n_batt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main3_2" />
+
+    <TextView
+        android:id="@+id/tv_plast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bat_inf"
+        android:textSize="25sp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_n_batt"
+        app:layout_constraintEnd_toEndOf="@+id/iv_n_batt"
+        app:layout_constraintStart_toStartOf="@+id/iv_n_batt"
+        app:layout_constraintTop_toTopOf="@+id/iv_n_batt"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <ImageView
+        android:id="@+id/iv_batt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_n_batt"
+        app:srcCompat="@drawable/batt1" />
+
+    <TextView
+        android:id="@+id/tv_infa_batt_1"
+        android:layout_width="184dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="220dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="@string/inf_batt1"
+        android:textColor="@color/infa"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_n_batt"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_n_batt"
+        tools:ignore="NotSibling" />
+
+    <ImageView
+        android:id="@+id/iv_batt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_batt3_infa"
+        app:layout_constraintEnd_toStartOf="@+id/tv_batt_infa2"
+        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintStart_toStartOf="@+id/iv_gl_batt"
+        app:layout_constraintTop_toBottomOf="@+id/tv_infa_batt_1"
+        app:layout_constraintVertical_bias="0.526"
+        app:srcCompat="@drawable/batt2" />
+
+    <TextView
+        android:id="@+id/tv_batt_infa2"
+        android:layout_width="176dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="@string/inf_batt2"
+        android:textColor="@color/infa"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_gl_batt"
+        app:layout_constraintTop_toBottomOf="@+id/iv_batt1" />
+
+    <ImageView
+        android:id="@+id/iv_batt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_batt_infa2"
+        app:srcCompat="@drawable/batt3" />
+
+    <TextView
+        android:id="@+id/tv_batt3_infa"
+        android:layout_width="171dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="@string/inf_batt3"
+        android:textColor="@color/infa"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_batt3"
+        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_batt_infa2" />
+
+    <Button
+        android:id="@+id/btn_main_batt"
+        android:layout_width="231dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@color/btn_main2_tv"
+        android:text="@string/t_btn_main"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_n_batt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
